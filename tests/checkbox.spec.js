@@ -22,7 +22,7 @@ test("single checkbox",async({page})=>{
 
 })
 
-test.only("multiple checkbox",async({page})=>{
+test("multiple checkbox",async({page})=>{
     await page.goto("https://testautomationpractice.blogspot.com/")
 
     let checkboxLocat=['//input[@id="sunday"]','//input[@id="tuesday"]','//input[@id="thursday"]','//input[@id="saturday"]']
