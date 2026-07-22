@@ -37,7 +37,7 @@ test("file download",async({page})=>{
     
 })
 
-test.only("Download file",async({page})=>{
+test("Download file",async({page})=>{
         await page.goto('https://the-internet.herokuapp.com/download')
 
         const [download]=await Promise.all([
